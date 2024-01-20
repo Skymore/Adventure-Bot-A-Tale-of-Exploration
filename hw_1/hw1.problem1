@@ -1,0 +1,41 @@
+Script started on Wed Jan 17 17:01:07 2024
+[1m[7m%[27m[1m[0m                                                                                                                                                                                   [0m[27m[24m[J(base) sky@taoruideMacBook-Pro-2 hw_1 % [K[?2004heecho 'hello     Hello w and welcome to the new quarter!'[?2004l
+Hello and welcome to the new quarter!
+[1m[7m%[27m[1m[0m                                                                                                                                                                                   [0m[27m[24m[J(base) sky@taoruideMacBook-Pro-2 hw_1 % [K[?2004hddate[?2004l
+2024年 1月17日 星期三 17时01分31秒 PST
+[1m[7m%[27m[1m[0m                                                                                                                                                                                   [0m[27m[24m[J(base) sky@taoruideMacBook-Pro-2 hw_1 % [K[?2004heecho $HOME[?2004l
+/Users/sky
+[1m[7m%[27m[1m[0m                                                                                                                                                                                   [0m[27m[24m[J(base) sky@taoruideMacBook-Pro-2 hw_1 % [K[?2004hccd ~[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                   [0m[27m[24m[J(base) sky@taoruideMacBook-Pro-2 ~ % [K[?2004hlls -a[?2004l
+.				.config				.python_history			Desktop				Sunlogin
+..				.continuum			.sogouinput			Documents			Sunlogin Files
+.CFUserTextEncoding		.docker				.sqlite_history			Downloads			demo
+.DS_Store			.dotnet				.tcshrc				IdeaProjects			java_error_in_idea_17698.log
+.ServiceHub			.gitconfig			.templateengine			Library				jbr_err_pid17698.log
+.Trash				.ipython			.viminfo			Movies				node_modules
+.anaconda			.jupyter			.vscode				Music				opt
+.android			.local				.xonshrc			OneDrive			package-lock.json
+.astropy			.matplotlib			.zprofile			Oracle				package.json
+.bash_history			.mono				.zsh_history			Pictures			secretfile
+.bash_profile			.mysql_history			.zsh_sessions			Postman				tt.db
+.cache				.npm				.zshrc				Postman Agent
+.conda				.nuget				Applications			Public
+.condarc			.oracle_jre_usage		CLionProjects			PycharmProjects
+[1m[7m%[27m[1m[0m                                                                                                                                                                                   [0m[27m[24m[J(base) sky@taoruideMacBook-Pro-2 ~ % [K[?2004hmmkdir temp[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                   [0m[27m[24m[J(base) sky@taoruideMacBook-Pro-2 ~ % [K[?2004hmmv temp temp_new[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                   [0m[27m[24m[J(base) sky@taoruideMacBook-Pro-2 ~ % [K[?2004hccd temp_new[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                   [0m[27m[24m[J(base) sky@taoruideMacBook-Pro-2 temp_new % [K[?2004httouch file5[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                   [0m[27m[24m[J(base) sky@taoruideMacBook-Pro-2 temp_new % [K[?2004hmmv file5 test[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                   [0m[27m[24m[J(base) sky@taoruideMacBook-Pro-2 temp_new % [K[?2004hccd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                   [0m[27m[24m[J(base) sky@taoruideMacBook-Pro-2 ~ % [K[?2004hrrm -r temp_new[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                   [0m[27m[24m[J(base) sky@taoruideMacBook-Pro-2 ~ % [K[?2004heecho 'It's  '"'"'s a secret!' > secretfile[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                   [0m[27m[24m[J(base) sky@taoruideMacBook-Pro-2 ~ % [K[?2004hcchmod -a  a-w secretfile[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                   [0m[27m[24m[J(base) sky@taoruideMacBook-Pro-2 ~ % [K[?2004hlls -l secretfile[?2004l
+-r--r--r--  1 sky  staff  15  1 17 17:02 secretfile
+[1m[7m%[27m[1m[0m                                                                                                                                                                                   [0m[27m[24m[J(base) sky@taoruideMacBook-Pro-2 ~ % [K[?2004heecho 'testtest' >> te  secretfile[?2004l
+zsh: permission denied: secretfile
+[1m[7m%[27m[1m[0m                                                                                                                                                                                   [0m[27m[24m[J(base) sky@taoruideMacBook-Pro-2 ~ % [K[?2004hccat >> secretfile[?2004l
+zsh: permission denied: secretfile
+[1m[7m%[27m[1m[0m                                                                                                                                                                                   [0m[27m[24m[J(base) sky@taoruideMacBook-Pro-2 ~ % [K[?2004heeie exit[?2004l
+
+Script done on Wed Jan 17 17:06:53 2024

@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.adm": "json",
+        "*.sqlp": "oraclesql",
+        "complex": "c",
+        "complex.h": "c"
+    }
+}

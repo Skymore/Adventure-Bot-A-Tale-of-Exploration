@@ -1,0 +1,46 @@
+Script started on Wed Jan 17 16:36:22 2024
+[1m[7m%[27m[1m[0m                                                                       [0m[27m[24m[J(base) sky@taoruideMacBook-Pro-2 hw_1 % [K[?2004hexitecho "Hello and welcome to the new quarter[K"[A[28C[1C[1C[1C[1C[1C[1C[P[25Cne[P[10C [A[33C"Hello and welcome to the new quarter"[A[34C[1B[34D[?2004l
+Hello and welcome to the new quarter
+[1m[7m%[27m[1m[0m                                                                       [0m[27m[24m[J(base) sky@taoruideMacBook-Pro-2 hw_1 % [K[?2004hddate[?2004l
+2024年 1月17日 星期三 16时36分38秒 PST
+[1m[7m%[27m[1m[0m                                                                       [0m[27m[24m[J(base) sky@taoruideMacBook-Pro-2 hw_1 % [K[?2004heecho $HOME[?2004l
+/Users/sky
+[1m[7m%[27m[1m[0m                                                                       [0m[27m[24m[J(base) sky@taoruideMacBook-Pro-2 hw_1 % [K[?2004hccd ~/ [?2004l
+[1m[7m%[27m[1m[0m                                                                       [0m[27m[24m[J(base) sky@taoruideMacBook-Pro-2 ~ % [K[?2004hlls[?2004l
+Applications			Postman Agent
+CLionProjects			Public
+Desktop				PycharmProjects
+Documents			Sunlogin
+Downloads			Sunlogin Files
+IdeaProjects			demo
+Library				java_error_in_idea_17698.log
+Movies				jbr_err_pid17698.log
+Music				node_modules
+OneDrive			opt
+Oracle				package-lock.json
+Pictures			package.json
+Postman				tt.db
+[1m[7m%[27m[1m[0m                                                                       [0m[27m[24m[J(base) sky@taoruideMacBook-Pro-2 ~ % [K[?2004hmmkdir temp[?2004l
+[1m[7m%[27m[1m[0m                                                                       [0m[27m[24m[J(base) sky@taoruideMacBook-Pro-2 ~ % [K[?2004hmmv temp temp_new[?2004l
+[1m[7m%[27m[1m[0m                                                                       [0m[27m[24m[J(base) sky@taoruideMacBook-Pro-2 ~ % [K[?2004hccd temp_new[?2004l
+[1m[7m%[27m[1m[0m                                                                       [0m[27m[24m[J(base) sky@taoruideMacBook-Pro-2 temp_new % [K[?2004httouch file5[?2004l
+[1m[7m%[27m[1m[0m                                                                       [0m[27m[24m[J(base) sky@taoruideMacBook-Pro-2 temp_new % [K[?2004hmmv file5 test[?2004l
+[1m[7m%[27m[1m[0m                                                                       [0m[27m[24m[J(base) sky@taoruideMacBook-Pro-2 temp_new % [K[?2004hccd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                       [0m[27m[24m[J(base) sky@taoruideMacBook-Pro-2 ~ % [K[?2004hrrm -r temp_bew   new[?2004l
+[1m[7m%[27m[1m[0m                                                                       [0m[27m[24m[J(base) sky@taoruideMacBook-Pro-2 ~ % [K[?2004h[7mecho "It's a secret!" > secretfile[27m [K
+[K[A[A[37C[27me[27mc[27mh[27mo[27m [27m"[27mI[27mt[27m'[27ms[27m [27ma[27m [27ms[27me[27mc[27mr[27me[27mt[27m![27m"[27m [27m>[27m [27ms[27me[27mc[27mr[27me[27mt[27mf[27mi[27ml[27me [1B[K[A[A[70C[K[1B[K[A[70Ce [K[K[?2004l[1B[0m[27m[24m[Jdquote> [K[?2004h[?2004l
+[0m[27m[24m[Jdquote> [K[?2004h"[?2004l
+It's a secret > secretfile
+
+
+[1m[7m%[27m[1m[0m                                                                       [0m[27m[24m[J(base) sky@taoruideMacBook-Pro-2 ~ % [K[?2004heecho "it  It's a secret!" > sc ecretfile [K[K[?2004l
+[0m[27m[24m[Jdquote> [K[?2004h"[?2004l
+It's a secret > secretfile
+
+[1m[7m%[27m[1m[0m                                                                       [0m[27m[24m[J(base) sky@taoruideMacBook-Pro-2 ~ % [K[?2004hecho "It's a secret > secretfile
+"[K[A[69C\'s a secret > secretfile[24D[?2004l[1B
+It\'s a secret > secretfile
+
+[1m[7m%[27m[1m[0m                                                                       [0m[27m[24m[J(base) sky@taoruideMacBook-Pro-2 ~ % [K[?2004heexit[?2004l
+
+Script done on Wed Jan 17 16:54:28 2024
