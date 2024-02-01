@@ -3,6 +3,9 @@
         "*.adm": "json",
         "*.sqlp": "oraclesql",
         "complex": "c",
-        "complex.h": "c"
+        "complex.h": "c",
+        "stdlib.h": "c",
+        "stdbool.h": "c",
+        "math.h": "c"
     }
 }

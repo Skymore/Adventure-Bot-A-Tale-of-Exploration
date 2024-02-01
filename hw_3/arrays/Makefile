@@ -1,36 +1,39 @@
-#Compilers
-CC          := g++ -std=c++11
+# Compilers
+CC          := g++ -std=c++17
 DGEN        := doxygen
 
-#The Target Binary Program
+# The Target Binary Program
 TARGET      := test
 
-#The Directories, Source, Includes, Objects, Binary and Resources
+# The Directories, Source, Includes, Objects, Binary and Resources
 SRCDIR      := .
 INCDIR      := .
 BUILDDIR    := ./build
 TARGETDIR   := ./bin
 SRCEXT      := c
 
-#Flags, Libraries and Includes
-CFLAGS      := # -fsanitize=address -ggdb
-LIB         := -lgtest -lpthread # -lasan
-INC         := -I$(INCDIR)
+# Flags, Libraries and Includes
+CFLAGS      := -g
+LIB         := -lgtest -lgtest_main -lpthread
+INC         := -I$(INCDIR) -I/opt/homebrew/Cellar/googletest/1.14.0/include
 INCDEP      := -I$(INCDIR)
 
-#Files
+# Google Test Library Directory
+GTEST_LIB_DIR := /opt/homebrew/Cellar/googletest/1.14.0/lib
+
+# Files
 DGENCONFIG  := docs.config
 HEADERS     := $(wildcard *.h)
-SOURCES     := $(wildcard *.c)
-OBJECTS     := $(patsubst %.c, $(BUILDDIR)/%.o, $(notdir $(SOURCES)))
+SOURCES     := $(wildcard *.$(SRCEXT))
+OBJECTS     := $(patsubst %.$(SRCEXT), $(BUILDDIR)/%.o, $(notdir $(SOURCES)))
 
-#Defauilt Make
-all: directories $(TARGETDIR)/$(TARGET) 
+# Default Make
+all: directories $(TARGETDIR)/$(TARGET)
 
-#Remake
+# Remake
 remake: cleaner all
 
-#Make the Directories
+# Make the Directories
 directories:
 	@mkdir -p $(TARGETDIR)
 	@mkdir -p $(BUILDDIR)
@@ -42,20 +45,20 @@ $(DGENCONFIG):
 docs: $(SOURCES) $(HEADERS) $(DGENCONFIG)
 	$(DGEN) $(DGENCONFIG)
 
-#Clean only Objects
+# Clean only Objects
 clean:
 	@$(RM) -rf $(BUILDDIR)/*.o
 
-#Full Clean, Objects and Binaries
+# Full Clean, Objects and Binaries
 spotless: clean
 	@$(RM) -rf $(TARGETDIR)/$(TARGET) $(DGENCONFIG) *.db
 	@$(RM) -rf build bin html latex
 
-#Link
-$(TARGETDIR)/$(TARGET): $(OBJECTS) $(HEADERS)
-	$(CC) $(CFLAGS) -o $(TARGETDIR)/$(TARGET) $^ $(LIB)
+# Link
+$(TARGETDIR)/$(TARGET): $(OBJECTS)
+	$(CC) -o $(TARGETDIR)/$(TARGET) $^ $(LIB) -L$(GTEST_LIB_DIR)
 
-#Compile
+# Compile
 $(BUILDDIR)/%.o: $(SRCDIR)/%.$(SRCEXT) $(HEADERS)
 	$(CC) $(CFLAGS) $(INC) -c -o $@ $<
 

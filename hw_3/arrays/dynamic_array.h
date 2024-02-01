@@ -88,4 +88,6 @@ void DynamicArray_destroy_all();
 
 DynamicArray * DynamicArray_subarray(DynamicArray *, int, int);
 
+DynamicArray * DynamicArray_take(const DynamicArray * da, int n);
+
 #endif
