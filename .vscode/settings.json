@@ -67,6 +67,13 @@
         "chrono": "cpp",
         "compare": "cpp",
         "concepts": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "filesystem": "cpp",
+        "fstream": "cpp",
+        "__tree": "cpp",
+        "deque": "cpp",
+        "iomanip": "cpp",
+        "map": "cpp",
+        "stack": "cpp"
     }
 }
