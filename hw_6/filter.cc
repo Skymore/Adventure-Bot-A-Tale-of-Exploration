@@ -10,7 +10,7 @@ void Filter::update() {
             _values.pop_front();
         }
         _running_average = _sum / _values.size();
-        cout << "Filter average: " << _running_average << endl;
+        std::cout << "Filter average: " << _running_average << std::endl;
     }
 }
 

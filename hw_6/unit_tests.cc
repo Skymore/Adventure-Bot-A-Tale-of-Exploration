@@ -47,7 +47,7 @@ namespace {
          .init()
          .run(MS(1000));
 
-        std::cout << "avg: " << f.value() << endl;
+        std::cout << "avg: " << f.value() << std::endl;
     }
 
     TEST(ProcessTest, IntegratorTest) {
@@ -63,6 +63,6 @@ namespace {
          .init()
          .run(MS(1000));
 
-        std::cout << "integral: " << i.value() << endl;
+        std::cout << "integral: " << i.value() << std::endl;
     }
 }

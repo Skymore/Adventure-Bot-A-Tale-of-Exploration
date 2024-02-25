@@ -6,11 +6,10 @@
 #include <iostream>
 
 using namespace elma;
-using namespace std;
 
 class Filter : public Process {
 public:
-    Filter(string name) : Process(name), _sum(0.0), _count(0) {}
+    Filter(std::string name) : Process(name), _sum(0.0), _count(0) {}
     void init() {}
     void start() {}
     void stop() {}
@@ -18,7 +17,7 @@ public:
     double value() const;
 
 private:
-    deque<double> _values;
+    std::deque<double> _values;
     double _sum;
     int _count;
     double _running_average;
