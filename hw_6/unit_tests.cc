@@ -6,7 +6,7 @@
 #include "random_process.h"
 #include "stopwatch.h"
 
-#include "elma/elma.h"
+#include <elma/elma.h>
 #include "gtest/gtest.h"
 
 #define MS(__ms__) high_resolution_clock::duration(milliseconds(__ms__))
