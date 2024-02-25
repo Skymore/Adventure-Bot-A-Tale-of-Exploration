@@ -12,16 +12,8 @@ public:
     void init() {}
     void start() {}
     void stop() {}
-    void update() {
-        if (channel("link").nonempty()) {
-            double val = channel("link").latest();
-            _integral += val * delta();
-            std::cout << "Integrator value: " << value() << std::endl;
-        }
-    }
-    double value() const {
-        return _integral;
-    }
+    void update() override;
+    double value() const;
 
 private:
     double _integral;

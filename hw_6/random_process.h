@@ -13,10 +13,7 @@ public:
     void init() {}
     void start() {}
     void stop() {}
-    void update() {
-        double random_value = (double)rand() / RAND_MAX; 
-        channel("link").send(random_value);
-    }
+    void update() override;
 
 private:
 };
