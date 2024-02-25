@@ -29,16 +29,13 @@ TEST(StopWatch, StopWatchTest) {
               << "\n";
     std::cout << w.get_nanoseconds() << "ns"
               << "\n";
-    std::cout << w.get_seconds() << "s"
-              << "\n";
-    w.start();
-    SLEEP;
-    w.stop();
-    std::cout << w.get_seconds() << "s"
-              << "\n";
+    ASSERT_NEAR(w.get_minutes(), 0.05, 0.0005);
+    ASSERT_NEAR(w.get_seconds(), 3, 0.003);
+    ASSERT_NEAR(w.get_milliseconds(), 3000, 30);
+    long nano_seconds = 3000000000;
+    ASSERT_NEAR(w.get_nanoseconds(), nano_seconds, nano_seconds/100);
+    ASSERT_NEAR(w.get_seconds(), 3, 0.003);
     w.reset();
-    std::cout << w.get_seconds() << "s"
-              << "\n";
 }
 
 TEST(ProcessTest, RandomProcessAndFilter) {
