@@ -17,4 +17,3 @@ void Filter::update() {
 double Filter::value() const {
     return _running_average;
 }
-

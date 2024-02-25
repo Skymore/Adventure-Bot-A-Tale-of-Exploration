@@ -1,13 +1,11 @@
 #ifndef INTEGRATOR_H
 #define INTEGRATOR_H
 
-#include <elma/elma.h> // assuming elma is installed and configured
+#include <elma/elma.h>  // assuming elma is installed and configured
 #include <iostream>
 
-using namespace elma;
-
-class Integrator : public Process {
-public:
+class Integrator : public elma::Process {
+   public:
     Integrator(std::string name) : Process(name), _integral(0.0) {}
     void init() {}
     void start() {}
@@ -15,7 +13,7 @@ public:
     void update() override;
     double value() const;
 
-private:
+   private:
     double _integral;
 };
 
