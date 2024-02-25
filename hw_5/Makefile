@@ -15,7 +15,7 @@ SRCEXT      := cc
 # Flags, Libraries and Includes
 CFLAGS      := -g
 LIB         := -lgtest -lgtest_main -lpthread
-INC         := -I$(INCDIR) -I/opt/homebrew/Cellar/googletest/1.14.0/include
+INC         := -I$(INCDIR)
 INCDEP      := -I$(INCDIR)
 
 # Google Test Library Directory
