@@ -2,7 +2,7 @@
 
 Welcome to the Adventure Bot project, an engaging simulation where a persistent robot navigates through a dynamic landscape filled with unexpected obstacles and shifting targets. This project is more than just a display of technological prowess; it's a narrative on curiosity, adaptability, and the joy of discovery. Just like a true explorer, our robot, dubbed the Adventurer, seeks out new destinations, each representing a newfound knowledge or experience, demonstrating that the journey itself is the ultimate adventure.
 
-![Adventure Bot Exploration](/Final_Project/project/images/image.png)
+![Adventure Bot Exploration](/Final_Project/images/image.png)
 
 
 ## Inspiration
