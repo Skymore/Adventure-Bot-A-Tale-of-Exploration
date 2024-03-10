@@ -1,0 +1,108 @@
+{
+    "name": "my_robot",
+    "type": "dynamic",
+    "description": "A wandering robot with multiple behaviors",
+    "shape": [
+        {
+            "x": -10,
+            "y": 10
+        },
+        {
+            "x": 10,
+            "y": 10
+        },
+        {
+            "x": 15,
+            "y": 0
+        },
+        {
+            "x": 10,
+            "y": -10
+        },
+        {
+            "x": -10,
+            "y": -10
+        }
+    ],
+    "friction": {
+        "collision": 2,
+        "linear": 10,
+        "rotational": 200
+    },
+    "sensors": [
+        {
+            "type": "range",
+            "location": {
+                "x": 0,
+                "y": 0
+            },
+            "direction": -1.0471975511965976 
+        },
+        {
+            "type": "range",
+            "location": {
+                "x": 0,
+                "y": 0
+            },
+            "direction": -0.7853981633974483 
+        },
+        {
+            "type": "range",
+            "location": {
+                "x": 0,
+                "y": 0
+            },
+            "direction": -0.5235987755982988 
+        },
+        {
+            "type": "range",
+            "location": {
+                "x": 0,
+                "y": 0
+            },
+            "direction": -0.2617993877991494 
+        },
+        {
+            "type": "range",
+            "location": {
+                "x": 0,
+                "y": 0
+            },
+            "direction": 0 
+        },
+        {
+            "type": "range",
+            "location": {
+                "x": 0,
+                "y": 0
+            },
+            "direction": 0.2617993877991494 
+        },
+        {
+            "type": "range",
+            "location": {
+                "x": 0,
+                "y": 0
+            },
+            "direction": 0.5235987755982988 
+        },
+        {
+            "type": "range",
+            "location": {
+                "x": 0,
+                "y": 0
+            },
+            "direction": 0.7853981633974483 
+        },
+        {
+            "type": "range",
+            "location": {
+                "x": 0,
+                "y": 0
+            },
+            "direction": 1.0471975511965976 
+        }
+    ],
+    "mass": 0.2,
+    "controller": "lib/my_robot.so"
+}

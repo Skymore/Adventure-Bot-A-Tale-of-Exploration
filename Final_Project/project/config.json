@@ -1,0 +1,155 @@
+{
+    "name": "Adventure Bot",
+    "ip": "0.0.0.0",
+    "port": 8765,
+    "buttons": [],
+    "agents": [
+        {
+            "definition": "defs/teleporter.json",
+            "style": {
+                "fill": "orange",
+                "stroke": "black"
+            },
+            "position": {
+                "x": 0,
+                "y": 0,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/my_robot.json",
+            "style": {
+                "fill": "pink",
+                "stroke": "black"
+            },
+            "position": {
+                "x": 100,
+                "y": 100,
+                "theta": 0
+            }
+        },
+        {
+        "definition": "defs/box.json",
+        "style": {
+            "fill": "grey",
+            "stroke": "black"
+        },
+        "position": {
+            "x": -250,
+            "y": -250,
+            "theta": 0
+        }
+    },
+    {
+        "definition": "defs/box2.json",
+        "style": {
+            "fill": "grey",
+            "stroke": "black"
+        },
+        "position": {
+            "x": 250,
+            "y": 250,
+            "theta": 0
+        }
+    }
+],
+"statics": [
+    {
+        "style": {
+            "fill": "gray",
+            "stroke": "none"
+        },
+        "shape": [
+            {
+                "x": -500,
+                "y": -500
+            },
+            {
+                "x": -500,
+                "y": 500
+            },
+            {
+                "x": -490,
+                "y": 500
+            },
+            {
+                "x": -490,
+                "y": -500
+            }
+        ]
+    },
+    {
+        "style": {
+            "fill": "gray",
+            "stroke": "none"
+        },
+        "shape": [
+            {
+                "x": 500,
+                "y": -500
+            },
+            {
+                "x": 500,
+                "y": 500
+            },
+            {
+                "x": 490,
+                "y": 500
+            },
+            {
+                "x": 490,
+                "y": -500
+            }
+        ]
+    },
+    {
+        "style": {
+            "fill": "gray",
+            "stroke": "none"
+        },
+        "shape": [
+            {
+                "x": -500,
+                "y": 500
+            },
+            {
+                "x": 500,
+                "y": 500
+            },
+            {
+                "x": 500,
+                "y": 490
+            },
+            {
+                "x": -500,
+                "y": 490
+            }
+        ]
+    },
+    {
+        "style": {
+            "fill": "gray",
+            "stroke": "none"
+        },
+        "shape": [
+            {
+                "x": -500,
+                "y": -500
+            },
+            {
+                "x": 500,
+                "y": -500
+            },
+            {
+                "x": 500,
+                "y": -490
+            },
+            {
+                "x": -500,
+                "y": -490
+            }
+        ]
+    }
+]
+
+}

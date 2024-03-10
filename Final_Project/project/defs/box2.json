@@ -1,0 +1,19 @@
+{
+    "name": "Obstacle",
+    "type": "dynamic",
+    "description": "A simple obstacle that can be used to block the path of the robot.",
+    "shape": [
+        { "x": -50, "y": 50 },
+        { "x": 50, "y": 50 },
+        { "x": 50, "y": -50 },
+        { "x": -50, "y": -50 }
+    ],
+    "friction": {
+      "collision": 5,
+      "linear": 40,
+      "rotational": 600
+    },
+    "sensors": [],
+    "mass": 10000000,    
+    "controller": "lib/box2.so"
+}

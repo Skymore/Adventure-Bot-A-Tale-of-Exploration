@@ -1,0 +1,19 @@
+{
+    "name": "Goal",
+    "type": "dynamic",
+    "description": "This is a Goal.  You win if you touch it.  ",
+    "shape": [
+        { "x": 0, "y": 10 },
+        { "x": 10, "y": 0 },
+        { "x": 0, "y": -10 },
+        { "x": -10, "y": 0 }
+    ],
+    "friction": {
+      "collision": 5,
+      "linear": 40,
+      "rotational": 600
+    },
+    "sensors": [],
+    "mass": 1000000000,    
+    "controller": "lib/teleporter.so"
+}
