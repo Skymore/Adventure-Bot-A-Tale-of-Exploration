@@ -2,6 +2,9 @@
 
 Welcome to the Adventure Bot project, an engaging simulation where a persistent robot navigates through a dynamic landscape filled with unexpected obstacles and shifting targets. This project is more than just a display of technological prowess; it's a narrative on curiosity, adaptability, and the joy of discovery. Just like a true explorer, our robot, dubbed the Adventurer, seeks out new destinations, each representing a newfound knowledge or experience, demonstrating that the journey itself is the ultimate adventure.
 
+![Adventure Bot Exploration](images/image.png)
+
+
 ## Inspiration
 
 Drawing from the spirit of exploration that drives us to seek out the unknown, the Adventure Bot embodies the essence of discovery. In this dynamic world, obstacles represent the challenges we face in our quest for knowledge, and the ever-moving target points symbolize the evolving nature of our goals and aspirations. This project serves as a metaphor for the continuous pursuit of learning and growth, emphasizing that change is the only constant in the journey of life.
@@ -10,7 +13,6 @@ Drawing from the spirit of exploration that drives us to seek out the unknown, t
 
 Utilizing the robust frameworks provided by [Elma](https://github.com/klavinslab/elma) and [Enviro](https://github.com/klavinslab/enviro), this interactive simulation features a robot equipped with the intelligence to overcome barriers and pursue objectives that dynamically appear within its environment. Additionally, users can guide the Adventurer by setting new goals directly within the map, offering a hands-on experience in shaping the robot's path of exploration.
 
-![Adventure Bot Exploration](images/image.png)
 
 ## Key Features
 
