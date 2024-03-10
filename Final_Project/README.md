@@ -10,7 +10,7 @@ Drawing from the spirit of exploration that drives us to seek out the unknown, t
 
 Utilizing the robust frameworks provided by [Elma](https://github.com/klavinslab/elma) and [Enviro](https://github.com/klavinslab/enviro), this interactive simulation features a robot equipped with the intelligence to overcome barriers and pursue objectives that dynamically appear within its environment. Additionally, users can guide the Adventurer by setting new goals directly within the map, offering a hands-on experience in shaping the robot's path of exploration.
 
-![Adventure Bot Exploration](images/adventure_bot_exploration.gif)
+![Adventure Bot Exploration](images/image.png)
 
 ## Key Features
 
