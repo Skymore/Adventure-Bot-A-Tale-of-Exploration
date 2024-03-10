@@ -33,15 +33,15 @@ Make sure Docker and Git are installed on your system:
 1. Open your terminal.
 2. Clone the Adventure Bot repository:
    ```bash
-   git clone https://github.com/yourgithubusername/adventure_bot.git
+   git clone https://github.com/Skymore/520-Assignments.git
    ```
 3. Navigate to the project directory:
    ```bash
-   cd adventure_bot/project
+   cd 520-Assignments/Final_Project/project
    ```
 4. Start the Docker image (adjust `$PWD` to your project's path if necessary):
    ```bash
-   docker run -p80:80 -p8765:8765 -v $PWD:/source -it klavins/enviro:v1.6 bash
+   docker run -p80:80 -p8765:8765 -v $PWD:/source -it klavins/enviro:v1.5 bash
    ```
 5. Initiate the project:
    ```bash
