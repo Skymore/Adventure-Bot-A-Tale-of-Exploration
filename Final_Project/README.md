@@ -58,15 +58,13 @@ Throughout the development of the Adventure Bot project, we encountered several 
 
 **Challenge**: Initially, agents within our environment were static, which posed a limitation as they could not move or change positions. This restriction was particularly problematic for simulating a dynamic environment where the robot needed to interact with movable objects.
 
-**Solution**: To overcome this limitation, we transitioned our agents from static to dynamic entities and assigned them a very high mass. This approach allowed us to simulate immovable objects while retaining the ability to programmatically adjust their positions when necessary, thus enhancing the dynamism of our simulation environment.
+**Solution**: To overcome this limitation, we transitioned our agents from static to dynamic entities and assigned them a very high mass.
 
 ### Obstacle Navigation
 
 **Challenge**: The robot occasionally struggled to navigate around obstacles, getting stuck in certain situations. This issue detracted from the smoothness of the exploration experience and needed to be addressed.
 
 **Solution**: We implemented a mechanism to automatically adjust the positions of obstacles every five seconds. This dynamic alteration of the environment ensures that if the robot finds itself unable to bypass an obstacle, it won't remain stuck indefinitely. Instead, the changing landscape presents new pathways and challenges, encouraging continuous exploration and problem-solving.
-
-These solutions not only addressed the immediate issues at hand but also enriched the overall dynamics of the project, making the robot's journey through the environment more engaging and reflective of the adaptability and persistence themes we aimed to showcase.
 
 ## Acknowledgements
 
